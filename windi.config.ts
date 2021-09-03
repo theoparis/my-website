@@ -1,12 +1,13 @@
-import { defineConfig } from 'windicss/helpers';
+import { defineConfig } from "windicss/helpers";
 
-module.exports = {
+export default defineConfig({
+    darkMode: "class",
     theme: {
         extend: {
-            fontWeight: ['hover', 'focus'],
+            fontWeight: ["hover", "focus"],
             fontFamily: {},
         },
     },
     variants: {},
     plugins: [],
-};
+});
