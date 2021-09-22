@@ -25,11 +25,11 @@ specifiers:
   vite-plugin-pwa: 0.11.2
   vite-plugin-windicss: 1.4.2
   windicss: 3.1.7
-  wouter: 2.7.4
+  wouter: 2.7.5
 
 dependencies:
   preact: 10.5.14
-  wouter: 2.7.4
+  wouter: 2.7.5
 
 devDependencies:
   '@iconify/json': 1.1.400
@@ -4158,8 +4158,8 @@ packages:
       workbox-core: 6.2.4
     dev: true
 
-  /wouter/2.7.4:
-    resolution: {integrity: sha512-shJIsHR+gcn69L2zR+0eKquOvAcjfIEdhzf8iAP502DlrAwg5lO2Q90DqIvXryNz/mk1fe2crTB40ZHXjoF1Bg==}
+  /wouter/2.7.5:
+    resolution: {integrity: sha512-TOI9gD1wa7a8wW+lh3rjg0C+MjYGKMV3eC+++6D+7n1z36ZJIBPWe2G9Hs1jYNPsV7oKiPTI3UFC5TGhZjQfrQ==}
     peerDependencies:
       react: '>=16.8.0'
     dev: false
