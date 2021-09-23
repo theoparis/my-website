@@ -9,7 +9,7 @@
     },
     "dependencies": {
         "preact": "10.5.14",
-        "wouter": "2.7.4"
+        "wouter": "2.7.5"
     },
     "devDependencies": {
         "@iconify/json": "1.1.400",
