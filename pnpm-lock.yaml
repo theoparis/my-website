@@ -24,7 +24,7 @@ specifiers:
   vite: 2.5.6
   vite-plugin-pwa: 0.11.2
   vite-plugin-windicss: 1.4.2
-  windicss: 3.1.8
+  windicss: 3.1.9
   wouter: 2.7.5
 
 dependencies:
@@ -51,7 +51,7 @@ devDependencies:
   vite: 2.5.6
   vite-plugin-pwa: 0.11.2_vite@2.5.6
   vite-plugin-windicss: 1.4.2_typescript@4.4.3+vite@2.5.6
-  windicss: 3.1.8
+  windicss: 3.1.9
 
 packages:
 
@@ -4006,8 +4006,8 @@ packages:
     hasBin: true
     dev: true
 
-  /windicss/3.1.8:
-    resolution: {integrity: sha512-G1UfnnSZ3s4MZnqqIL8DOQbL8rBArQKlodlby8OvP333TPaRouamuIuYyCt5kSNEJzFrkx168TSRIkqhDs9bOA==}
+  /windicss/3.1.9:
+    resolution: {integrity: sha512-5YoKvXeCQXIdwc91BoOgpKbIImr2JS8I14rPMa/5dKDDPA4ot3NgICWKELkml39R/8rn4Q0BVUUTqN+w+hjDSA==}
     engines: {node: '>= 12'}
     hasBin: true
     dev: true
