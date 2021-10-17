@@ -8,7 +8,7 @@
         "lint": "eslint --fix src/**/*.tsx"
     },
     "dependencies": {
-        "preact": "10.5.14",
+        "preact": "10.5.15",
         "wouter": "2.7.5"
     },
     "devDependencies": {
