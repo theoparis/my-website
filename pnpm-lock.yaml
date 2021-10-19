@@ -5,7 +5,7 @@ overrides:
 
 specifiers:
   '@iconify/json': 1.1.400
-  '@preact/preset-vite': 2.1.4
+  '@preact/preset-vite': 2.1.5
   '@typescript-eslint/eslint-plugin': 4.30.0
   '@typescript-eslint/parser': 4.30.0
   cross-env: 7.0.3
@@ -33,7 +33,7 @@ dependencies:
 
 devDependencies:
   '@iconify/json': 1.1.400
-  '@preact/preset-vite': 2.1.4_preact@10.5.14+vite@2.5.6
+  '@preact/preset-vite': 2.1.5_preact@10.5.14+vite@2.5.6
   '@typescript-eslint/eslint-plugin': 4.30.0_f4cab4c6275596d54d93d930a84a5067
   '@typescript-eslint/parser': 4.30.0_eslint@7.32.0+typescript@4.4.3
   cross-env: 7.0.3
@@ -1260,8 +1260,8 @@ packages:
       fastq: 1.12.0
     dev: true
 
-  /@preact/preset-vite/2.1.4_preact@10.5.14+vite@2.5.6:
-    resolution: {integrity: sha512-B7c0FMwijLrETrkuxSG3lV9ZBDt3uceMbv0T1SoKsx5OUrc7CzRf5VsDeLvypZSV0HKoy71nZW0WxOpG1bitfA==}
+  /@preact/preset-vite/2.1.5_preact@10.5.14+vite@2.5.6:
+    resolution: {integrity: sha512-G+Op0d940lVwOH93Tkhz4BTgE88VpQBFWHqnz8QjHpo6IwmfP3HHQJHrp9dEt5Di2f2HQ4bpmhDqBl7+bzir6g==}
     peerDependencies:
       '@babel/core': 7.x
       vite: 2.x
