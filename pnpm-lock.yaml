@@ -4,7 +4,7 @@ overrides:
   postcss: 8.1.10
 
 specifiers:
-  '@iconify/json': 1.1.400
+  '@iconify/json': 1.1.418
   '@preact/preset-vite': 2.1.4
   '@typescript-eslint/eslint-plugin': 4.30.0
   '@typescript-eslint/parser': 4.30.0
@@ -32,7 +32,7 @@ dependencies:
   wouter: 2.7.5
 
 devDependencies:
-  '@iconify/json': 1.1.400
+  '@iconify/json': 1.1.418
   '@preact/preset-vite': 2.1.4_preact@10.5.14+vite@2.5.6
   '@typescript-eslint/eslint-plugin': 4.30.0_f4cab4c6275596d54d93d930a84a5067
   '@typescript-eslint/parser': 4.30.0_eslint@7.32.0+typescript@4.4.3
@@ -1235,8 +1235,8 @@ packages:
     resolution: {integrity: sha512-wdppn25U8z/2yiaT6YGquE6X8sSv7hNMWSXYSSU1jGv/yd6XqjXgTDJ8KP4NgjTXfJ3GbRjeeb8RTV7a/VpM+w==}
     dev: true
 
-  /@iconify/json/1.1.400:
-    resolution: {integrity: sha512-O6roK4lDFtaxKsqeul1iBFc92kiBxfpPQjRkgLFI+EshvQuNx3e8iUDnfqe0Fu7GWaFT2TeERBkrF76pjYy+nw==}
+  /@iconify/json/1.1.418:
+    resolution: {integrity: sha512-cmgTpsPhWu0PkA/O3YEe2LHAWTiT3u5xfAnPt050JAbYCpTin7IDxBmTM3o5JzIf8Q7vuNd+vJDnYvZ86gCBzA==}
     dev: true
 
   /@nodelib/fs.scandir/2.1.5:
