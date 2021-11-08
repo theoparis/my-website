@@ -1,52 +1,56 @@
 {
-    "name": "preact-vite-starter",
-    "version": "0.0.1",
-    "scripts": {
-        "dev": "vite",
-        "build": "cross-env NODE_ENV=production vite build",
-        "prettier": "prettier --write '**/*.{js,jsx,css,html}'",
-        "lint": "eslint --fix src/**/*.tsx"
-    },
-    "dependencies": {
-        "preact": "10.5.14",
-        "wouter": "2.7.5"
-    },
-    "devDependencies": {
-        "@iconify/json": "1.1.400",
-        "@preact/preset-vite": "2.1.2",
-        "@typescript-eslint/eslint-plugin": "4.30.0",
-        "@typescript-eslint/parser": "4.30.0",
-        "cross-env": "7.0.3",
-        "eslint": "7.32.0",
-        "eslint-config-prettier": "8.3.0",
-        "eslint-config-standard": "16.0.3",
-        "eslint-plugin-import": "2.24.2",
-        "eslint-plugin-node": "11.1.0",
-        "eslint-plugin-prettier": "3.4.1",
-        "eslint-plugin-promise": "5.1.0",
-        "husky": "7.0.2",
-        "lint-staged": "11.1.2",
-        "prettier": "2.4.1",
-        "typescript": "4.4.3",
-        "vite": "2.5.6",
-        "vite-plugin-pwa": "0.11.2",
-        "vite-plugin-windicss": "1.4.2",
-        "windicss": "3.1.8"
-    },
-    "husky": {
-        "hooks": {
-            "pre-commit": "lint-staged"
-        }
-    },
-    "lint-staged": {
-        "*/**/*.{js,jsx,ts,tsx, json}": [
-            "npx prettier --write"
-        ]
-    },
-    "peerDependencies": {
-        "postcss": "^8.3.6"
-    },
-    "resolutions": {
-        "postcss": "8.1.10"
+  "name": "@theoparis/website",
+  "private": true,
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "vite",
+    "build": "cross-env NODE_ENV=production vite build",
+    "prettier": "prettier --write '**/*.{js,jsx,css,html}'",
+    "lint": "eslint '**/*.{ts,tsx}'",
+    "test": "jest --coverage",
+    "lint:fix": "eslint --fix '**/*.{ts,tsx}'"
+  },
+  "dependencies": {
+    "@fontsource/jetbrains-mono": "^4.5.0",
+    "preact": "10.5.15",
+    "preact-feather": "^4.2.1",
+    "wouter": "2.7.5"
+  },
+  "devDependencies": {
+    "@preact/preset-vite": "2.1.5",
+    "@theoparis/eslint-config": "github:creepinson/eslint-config#update",
+    "@typescript-eslint/eslint-plugin": "5.3.0",
+    "@typescript-eslint/parser": "5.3.0",
+    "autoprefixer": "^10.4.0",
+    "cross-env": "7.0.3",
+    "eslint": "8.2.0",
+    "eslint-config-prettier": "8.3.0",
+    "eslint-config-standard": "16.0.3",
+    "eslint-plugin-import": "2.25.2",
+    "eslint-plugin-node": "11.1.0",
+    "eslint-plugin-prettier": "4.0.0",
+    "eslint-plugin-promise": "5.1.1",
+    "husky": "7.0.4",
+    "jest": "^27.3.1",
+    "lint-staged": "11.2.6",
+    "postcss": "^8.3.11",
+    "postcss-import": "^14.0.2",
+    "prettier": "2.4.1",
+    "tailwindcss": "^2.2.19",
+    "ts-jest": "^27.0.7",
+    "typescript": "4.4.4",
+    "vite": "2.6.13",
+    "vite-jest": "^0.0.4",
+    "vite-plugin-pwa": "0.11.3"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
     }
+  },
+  "lint-staged": {
+    "*/**/*.{js,jsx,ts,tsx, json}": [
+      "npx prettier --write"
+    ]
+  }
 }

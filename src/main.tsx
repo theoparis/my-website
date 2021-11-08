@@ -1,6 +1,7 @@
-import "virtual:windi.css";
 import { render } from "preact";
 import { App } from "./app";
 import "./index.css";
 
-render(<App />, document.getElementById("app")!);
+const root = document.querySelector("#app");
+if (root) render(<App />, root);
+else console.error("No root element found");
