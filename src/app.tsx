@@ -1,6 +1,7 @@
 import { Route, Router } from "wouter";
 import { Navbar } from "./components/Navbar";
 // import { Logo } from "./logo";
+import Me from "./me.jpg";
 
 export const App = () => (
   <div className="bg-gray-800 text-white w-full min-h-screen">
@@ -27,7 +28,9 @@ export const App = () => (
             My name is Theo and I'm a 17-year-old programmer, gamer and music
             producer.
           </p>
-          <div className="mb-6">{/* <Logo w={250} h={250} /> */}</div>
+          <div className="mb-6">
+            <img src={Me} className="w-[200px] rounded-lg" />
+          </div>
 
           <h2 className="text-3xl mb-2">What I Am Using</h2>
 
