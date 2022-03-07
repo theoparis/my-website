@@ -14,8 +14,8 @@
     "devDependencies": {
         "@iconify/json": "1.1.424",
         "@preact/preset-vite": "2.1.5",
-        "@typescript-eslint/eslint-plugin": "4.33.0",
-        "@typescript-eslint/parser": "4.33.0",
+        "@typescript-eslint/eslint-plugin": "5.13.0",
+        "@typescript-eslint/parser": "5.13.0",
         "cross-env": "7.0.3",
         "eslint": "7.32.0",
         "eslint-config-prettier": "8.3.0",
