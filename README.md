@@ -1,6 +1,6 @@
-# Vite + Preact + WindiCSS starter
+# My Old Website
 
-> This project uses Vite for blazing fast development server ⚡
+**This is my old website. It is going to be rewritten in Rust with Webassembly soon, so stay tuned.**
 
 ## Features:
 
